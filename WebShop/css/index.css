@@ -1,0 +1,308 @@
+﻿.content-page-wrapper {
+    width: 980px;
+    height: 500px;
+    margin-top: 10px;
+}
+
+
+#left-panel {
+    display: inline-block;
+    width: 630px;
+    float: left;
+}
+
+#right-panel {
+    float: right;
+    width: 348px;
+    display: inline-block;
+    border-left: 1px solid #B3B3B3;
+}
+
+#body-footer {
+    margin-top: 1100px;
+}
+
+#ContentPlaceHolder1_domaceKnjigePanel {
+    width: 630px;
+    height: auto;
+    float: left;
+}
+
+#panelknjiga-wrapper {
+    width: 285px;
+    height: 180px;
+    margin: 10px 10px 10px 10px;
+    float: left;
+    display: inline-block;
+    border-right: 1px solid #B3B3B3;
+}
+
+#knjiga-left {
+    width: 100px;
+    height: 180px;
+    float: left;
+    display: inline-block;
+}
+
+#knjiga-right {
+    width: 175px;
+    height: 180px;
+    display: inline-block;
+    float: right;
+}
+
+.slika-knjige {
+    width: 100px;
+    height: 150px;
+}
+
+#naslov {
+    height: 30px;
+    color: #E61F24;
+}
+
+#cena {
+    height: 20px;
+    font-size: 12px;
+}
+
+#ubaci-u-korpu {
+    height: 20px;
+}
+
+#snizena-cena {
+    height: 20px;
+    font-size: 12px;
+}
+
+#autor {
+    margin-top: 10px;
+    height: 20px;
+    font-size: 12px;
+}
+
+#izdavac {
+    height: 20px;
+    font-size: 12px;
+}
+
+.naslov-knjige {
+    font-size: 14px;
+    text-decoration:none;
+    color: #E61F24;
+}
+.naslov-knjige:hover {
+    font-size: 14px;
+    text-decoration:none;
+    color: black;
+}
+
+.autor-knjige {
+    font-size: 12px;
+}
+
+.cena-knjige {
+    color: #E61F24;
+}
+
+.snizenacena-knjige {
+    color: #E61F24;
+}
+
+.ubaciukorpu-button {
+    color: black;
+}
+
+    .ubaciukorpu-button:hover {
+        color: #E61F24;
+        text-decoration: none;
+    }
+
+#ContentPlaceHolder1_futerpanel div {
+    width: 630px;
+    height: 20px;
+    text-align: center;
+}
+
+.link-strane {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+}
+
+    .link-strane:link {
+        color: black;
+    }
+
+    .link-strane:active {
+        color: #CC373E;
+    }
+
+    .link-strane:visited {
+        color: black;
+        background-color: red;
+    }
+
+    .link-strane:hover {
+        color: #CC373E;
+        
+    }
+    .warning-label{
+        text-align:center;
+        color:#CC373E;
+    }
+    #slajder-wrapper{
+        margin-top:30px;
+        margin-left:10px;
+        width:600px;
+        height:360;
+        display:block;
+        position:relative;
+    }
+        #slajder{        
+        width:600px;
+        height:360px;
+        display:block;
+        position:absolute;
+        overflow:hidden;
+        margin:3px solid black;
+    }
+
+    #pager{
+        margin-top:330px;
+        width:100%;
+        text-align:center;
+        display:block;
+        position:absolute;
+        z-index:999;
+
+    }
+    #pager a{
+        width:10px;
+        height:10px;
+        display:inline-block;
+        position:relative;
+        border:2px solid black;
+        border-radius:20px;
+        background:transparent;
+        margin:5px;
+        font-size:.0em;
+
+    }
+    #pager a.activeSlide{
+        background:black;
+    }
+
+
+    #ContentPlaceHolder1_panelSadrzaj{
+      
+    }
+    #sadrzaj{
+        margin-top:460px;
+    }
+
+    /* slajder podesavanje  */
+
+    #ContentPlaceHolder1_Panel1, #ContentPlaceHolder1_Panel2,#ContentPlaceHolder1_Panel3,#ContentPlaceHolder1_Panel4,#ContentPlaceHolder1_Panel5{
+    width: 600px;
+    height: 360px;;
+    
+}
+
+#panelknjiga-wrapper1 {
+    width:600px;
+    height: 360px;
+    margin: 10px 10px 10px 10px;
+    float: left;
+    display: inline-block;
+    
+}
+
+#knjiga-left1 {
+    width: 255px;
+    height: 360px;
+    float: left;
+    display: inline-block;
+}
+
+#knjiga-right1 {
+    
+    width: 325px;
+    height: 360px;
+    display: inline-block;
+    float: right;
+    margin-left:20px;
+}
+
+.slika-knjige1 {
+    width: 255px;
+    height: 360px;
+}
+
+#naslov1 {
+    height: 50px;
+    color: #E61F24;
+    
+}
+
+#cena1 {
+    height: 50px;
+    font-size: 12px;
+}
+
+#ubaci-u-korpu1 {
+    height: 20px;
+    text-align:center;
+}
+
+#snizena-cena1 {
+    height: 30px;
+    font-size: 18px;
+}
+
+#autor1 {
+    margin-top: 10px;
+    height: 30px;
+    font-size: 18px;
+}
+
+#izdavac1 {
+    height: 100px;
+    font-size: 18px;
+}
+
+.naslov-knjige1 {
+    font-size: 25px;
+    text-decoration:none;
+    color: #E61F24;
+
+}
+.naslov-knjige1:hover {
+    font-size: 25px;
+    text-decoration:none;
+    color: black;
+}
+
+.autor-knjige1 {
+    font-size: 18px;
+}
+
+.cena-knjige1 {
+    font-size:18px;
+    color: #E61F24;
+    font-size:18px;
+}
+
+.snizenacena-knjige1 {
+    font-size:18px;
+    color: #E61F24;
+}
+
+.ubaciukorpu-button1 {
+    color: black;
+}
+
+    .ubaciukorpu-button1:hover {
+        color: #E61F24;
+        text-decoration: none;
+    }

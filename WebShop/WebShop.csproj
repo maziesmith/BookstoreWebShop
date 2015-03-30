@@ -1,0 +1,408 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9D0E42B7-AD67-49BD-BE16-33FCF7BF0040}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebShop</RootNamespace>
+    <AssemblyName>WebShop</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="SQLite.Designer, Version=1.0.94.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\SQLite.Designer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.SQLite, Version=1.0.94.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.EF6, Version=1.0.94.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\System.Data.SQLite.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.Linq, Version=1.0.94.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\System.Data.SQLite.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="BookStore.Master" />
+    <Content Include="BookStoreService.asmx" />
+    <Content Include="css\search.css" />
+    <Content Include="css\smoothness\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="css\smoothness\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="css\smoothness\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="css\smoothness\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="css\smoothness\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="css\smoothness\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="css\smoothness\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="css\smoothness\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="css\smoothness\images\ui-icons_222222_256x240.png" />
+    <Content Include="css\smoothness\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="css\smoothness\images\ui-icons_454545_256x240.png" />
+    <Content Include="css\smoothness\images\ui-icons_888888_256x240.png" />
+    <Content Include="css\smoothness\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="css\smoothness\jquery-ui.css" />
+    <Content Include="css\smoothness\jquery.ui.theme.css" />
+    <Content Include="css\AdminPage.css" />
+    <Content Include="css\akcija.css" />
+    <Content Include="css\dodavanjeKnjiga.css" />
+    <Content Include="css\domaceKnjige.css" />
+    <Content Include="css\errorPages.css" />
+    <Content Include="css\index.css" />
+    <Content Include="css\izmenaKnjige.css" />
+    <Content Include="css\jquery-ui.css" />
+    <Content Include="css\jquery-ui.min.css" />
+    <Content Include="css\jquery-ui.structure.css" />
+    <Content Include="css\jquery-ui.structure.min.css" />
+    <Content Include="css\jquery-ui.theme.css" />
+    <Content Include="css\jquery-ui.theme.min.css" />
+    <Content Include="css\knjiga.css" />
+    <Content Include="css\kontakt.css" />
+    <Content Include="css\Korisnici.css" />
+    <Content Include="css\korpa.css" />
+    <Content Include="css\listaKnjiga.css" />
+    <Content Include="css\registracija.css" />
+    <Content Include="css\reset.css" />
+    <Content Include="css\resetemail.css" />
+    <Content Include="css\straneKnjige.css" />
+    <Content Include="css\ulaz.css" />
+    <Content Include="css\vader\images\animated-overlay.gif" />
+    <Content Include="css\vader\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="css\vader\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="css\vader\images\ui-bg_gloss-wave_16_121212_500x100.png" />
+    <Content Include="css\vader\images\ui-bg_highlight-hard_15_888888_1x100.png" />
+    <Content Include="css\vader\images\ui-bg_highlight-hard_55_555555_1x100.png" />
+    <Content Include="css\vader\images\ui-bg_highlight-soft_35_adadad_1x100.png" />
+    <Content Include="css\vader\images\ui-bg_highlight-soft_60_dddddd_1x100.png" />
+    <Content Include="css\vader\images\ui-bg_inset-soft_15_121212_1x100.png" />
+    <Content Include="css\vader\images\ui-icons_666666_256x240.png" />
+    <Content Include="css\vader\images\ui-icons_aaaaaa_256x240.png" />
+    <Content Include="css\vader\images\ui-icons_bbbbbb_256x240.png" />
+    <Content Include="css\vader\images\ui-icons_c98000_256x240.png" />
+    <Content Include="css\vader\images\ui-icons_cccccc_256x240.png" />
+    <Content Include="css\vader\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="css\vader\images\ui-icons_f29a00_256x240.png" />
+    <Content Include="css\vader\jquery-ui.css" />
+    <Content Include="css\vader\jquery-ui.min.css" />
+    <Content Include="css\vader\jquery.ui.theme.css" />
+    <Content Include="img\bookstore-logo.png" />
+    <Content Include="img\footer-background.png" />
+    <Content Include="css\images\ui-bg_flat_30_cccccc_40x100.png" />
+    <Content Include="css\images\ui-bg_flat_50_5c5c5c_40x100.png" />
+    <Content Include="css\images\ui-bg_glass_20_555555_1x400.png" />
+    <Content Include="css\images\ui-bg_glass_40_0078a3_1x400.png" />
+    <Content Include="css\images\ui-bg_glass_40_ffc73d_1x400.png" />
+    <Content Include="css\images\ui-bg_gloss-wave_25_333333_500x100.png" />
+    <Content Include="css\images\ui-bg_highlight-soft_80_eeeeee_1x100.png" />
+    <Content Include="css\images\ui-bg_inset-soft_25_000000_1x100.png" />
+    <Content Include="css\images\ui-bg_inset-soft_30_f58400_1x100.png" />
+    <Content Include="css\images\ui-icons_222222_256x240.png" />
+    <Content Include="css\images\ui-icons_4b8e0b_256x240.png" />
+    <Content Include="css\images\ui-icons_a83300_256x240.png" />
+    <Content Include="css\images\ui-icons_cccccc_256x240.png" />
+    <Content Include="css\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="js\autocomplete.js" />
+    <Content Include="js\cyclePlugin.js" />
+    <Content Include="js\jquery-1.11.1.min.js" />
+    <Content Include="js\jquery-ui.js" />
+    <Content Include="js\jquery-ui.min.js" />
+    <Content Include="js\older\jqueri-ui.js" />
+    <Content Include="js\older\jquery-min.js" />
+    <Content Include="js\slajder.js" />
+    <Content Include="UserPages\registracija.aspx" />
+    <Content Include="AdminPages\AdminPage.aspx" />
+    <Content Include="packages.config" />
+    <Content Include="AdminPages\dodajKnjigu.aspx" />
+    <Content Include="AdminPages\IzmeniKnjigu.aspx" />
+    <Content Include="AdminPages\ListaKnjiga.aspx" />
+    <Content Include="ErrorPages\Warning.aspx" />
+    <Content Include="AdminPages\Korisnici.aspx" />
+    <Content Include="UserPages\domaceKnjige.aspx" />
+    <Content Include="UserPages\straneKnjige.aspx" />
+    <Content Include="UserPages\akcija.aspx" />
+    <Content Include="UserPages\knjiga.aspx" />
+    <Content Include="UserPages\korpa.aspx" />
+    <Content Include="AdminPages\admin.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="UserPages\ulaz.aspx" />
+    <Content Include="default.aspx" />
+    <Content Include="UserPages\reset.aspx" />
+    <Content Include="UserPages\resetemail.aspx" />
+    <Content Include="UserPages\kontakt.aspx" />
+    <Content Include="AdminPages\setuppocetna.aspx" />
+    <Content Include="UserPages\search.aspx" />
+    <Content Include="UserPages\userprofile.aspx" />
+    <Content Include="App_Data\bookstoreDB.sqlite" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\StyleSheet.css" />
+    <Content Include="Global.asax" />
+    <Content Include="img\header-background.gif" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BookStore.Master.cs">
+      <DependentUpon>BookStore.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BookStore.Master.designer.cs">
+      <DependentUpon>BookStore.Master</DependentUpon>
+    </Compile>
+    <Compile Include="BookStoreService.asmx.cs">
+      <DependentUpon>BookStoreService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Class\ConnDB.cs" />
+    <Compile Include="Class\EmailSender.cs" />
+    <Compile Include="Class\ResetDB.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Class\KnjigaDB.cs" />
+    <Compile Include="Class\KomentariDB.cs" />
+    <Compile Include="Class\KorisnikDB.cs" />
+    <Compile Include="Class\KorpaDB.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserPages\registracija.aspx.cs">
+      <DependentUpon>registracija.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserPages\registracija.aspx.designer.cs">
+      <DependentUpon>registracija.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPages\AdminPage.aspx.cs">
+      <DependentUpon>AdminPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPages\AdminPage.aspx.designer.cs">
+      <DependentUpon>AdminPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPages\dodajKnjigu.aspx.cs">
+      <DependentUpon>dodajKnjigu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPages\dodajKnjigu.aspx.designer.cs">
+      <DependentUpon>dodajKnjigu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPages\IzmeniKnjigu.aspx.cs">
+      <DependentUpon>IzmeniKnjigu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPages\IzmeniKnjigu.aspx.designer.cs">
+      <DependentUpon>IzmeniKnjigu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPages\ListaKnjiga.aspx.cs">
+      <DependentUpon>ListaKnjiga.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPages\ListaKnjiga.aspx.designer.cs">
+      <DependentUpon>ListaKnjiga.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ErrorPages\Warning.aspx.cs">
+      <DependentUpon>Warning.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ErrorPages\Warning.aspx.designer.cs">
+      <DependentUpon>Warning.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPages\Korisnici.aspx.cs">
+      <DependentUpon>Korisnici.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPages\Korisnici.aspx.designer.cs">
+      <DependentUpon>Korisnici.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserPages\domaceKnjige.aspx.cs">
+      <DependentUpon>domaceKnjige.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserPages\domaceKnjige.aspx.designer.cs">
+      <DependentUpon>domaceKnjige.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserPages\straneKnjige.aspx.cs">
+      <DependentUpon>straneKnjige.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserPages\straneKnjige.aspx.designer.cs">
+      <DependentUpon>straneKnjige.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserPages\akcija.aspx.cs">
+      <DependentUpon>akcija.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserPages\akcija.aspx.designer.cs">
+      <DependentUpon>akcija.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserPages\knjiga.aspx.cs">
+      <DependentUpon>knjiga.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserPages\knjiga.aspx.designer.cs">
+      <DependentUpon>knjiga.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserPages\korpa.aspx.cs">
+      <DependentUpon>korpa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserPages\korpa.aspx.designer.cs">
+      <DependentUpon>korpa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserPages\ulaz.aspx.cs">
+      <DependentUpon>ulaz.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserPages\ulaz.aspx.designer.cs">
+      <DependentUpon>ulaz.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserPages\reset.aspx.cs">
+      <DependentUpon>reset.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserPages\reset.aspx.designer.cs">
+      <DependentUpon>reset.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserPages\resetemail.aspx.cs">
+      <DependentUpon>resetemail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserPages\resetemail.aspx.designer.cs">
+      <DependentUpon>resetemail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserPages\kontakt.aspx.cs">
+      <DependentUpon>kontakt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserPages\kontakt.aspx.designer.cs">
+      <DependentUpon>kontakt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPages\setuppocetna.aspx.cs">
+      <DependentUpon>setuppocetna.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPages\setuppocetna.aspx.designer.cs">
+      <DependentUpon>setuppocetna.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserPages\search.aspx.cs">
+      <DependentUpon>search.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserPages\search.aspx.designer.cs">
+      <DependentUpon>search.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserPages\userprofile.aspx.cs">
+      <DependentUpon>userprofile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserPages\userprofile.aspx.designer.cs">
+      <DependentUpon>userprofile.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="img\bookpic\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>2814</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:2815/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

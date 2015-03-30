@@ -1,0 +1,28 @@
+﻿        .content-page-wrapper {
+            width: 980px;
+            height: 500px;
+            margin-top: 10px;
+        }
+
+
+        #left-panel {
+            display: inline-block;
+            width: 630px;
+            float: left;
+        }
+
+        #right-panel {
+            float: right;
+            width: 348px;
+            display: inline-block;
+            border-left: 1px solid #B3B3B3;
+        }
+       #body-footer{
+
+        margin-top:1000px;
+        }
+       #left-panel table{
+           margin-left:auto;
+           margin-right:auto;
+            width: 204px;
+}

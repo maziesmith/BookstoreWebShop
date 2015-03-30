@@ -1,0 +1,153 @@
+﻿.content-page-wrapper {
+    width: 980px;
+    height: 500px;
+    margin-top: 10px;
+}
+
+
+#left-panel {
+    display: inline-block;
+    width: 630px;
+    float: left;
+}
+
+#right-panel {
+    float: right;
+    width: 348px;
+    display: inline-block;
+    border-left: 1px solid #B3B3B3;
+}
+
+#body-footer {
+    margin-top: 1100px;
+}
+
+#ContentPlaceHolder1_domaceKnjigePanel {
+    width: 630px;
+    height: auto;
+    float: left;
+}
+
+#panelknjiga-wrapper {
+    width: 285px;
+    height: 180px;
+    margin: 10px 10px 10px 10px;
+    float: left;
+    display: inline-block;
+    border-right: 1px solid #B3B3B3;
+}
+
+#knjiga-left {
+    width: 100px;
+    height: 180px;
+    float: left;
+    display: inline-block;
+}
+
+#knjiga-right {
+    width: 175px;
+    height: 180px;
+    display: inline-block;
+    float: right;
+}
+
+.slika-knjige {
+    width: 100px;
+    height: 150px;
+}
+
+#naslov {
+    height: 30px;
+    color: #E61F24;
+}
+
+#cena {
+    height: 20px;
+    font-size: 12px;
+}
+
+#ubaci-u-korpu {
+    height: 20px;
+}
+
+#snizena-cena {
+    height: 20px;
+    font-size: 12px;
+}
+
+#autor {
+    margin-top: 10px;
+    height: 20px;
+    font-size: 12px;
+}
+
+#izdavac {
+    height: 20px;
+    font-size: 12px;
+}
+
+.naslov-knjige {
+    font-size: 14px;
+    text-decoration:none;
+    color: #E61F24;
+}
+.naslov-knjige:hover {
+    font-size: 14px;
+    text-decoration:none;
+    color: black;
+}
+
+.autor-knjige {
+    font-size: 12px;
+}
+
+.cena-knjige {
+    color: #E61F24;
+}
+
+.snizenacena-knjige {
+    color: #E61F24;
+}
+
+.ubaciukorpu-button {
+    color: black;
+}
+
+    .ubaciukorpu-button:hover {
+        color: #E61F24;
+        text-decoration: none;
+    }
+
+#ContentPlaceHolder1_futerpanel div {
+    width: 630px;
+    height: 20px;
+    text-align: center;
+}
+
+.link-strane {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+}
+
+    .link-strane:link {
+        color: black;
+    }
+
+    .link-strane:active {
+        color: #CC373E;
+    }
+
+    .link-strane:visited {
+        color: black;
+        background-color: red;
+    }
+
+    .link-strane:hover {
+        color: #CC373E;
+        
+    }
+    .warning-label{
+        text-align:center;
+        color:#CC373E;
+    }

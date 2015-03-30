@@ -1,0 +1,55 @@
+C:\Users\Nikola\Documents\Visual Studio 2013\Projects\ASPNET\WebShop\WebShop\bin\WebShop.dll.config
+C:\Users\Nikola\Documents\Visual Studio 2013\Projects\ASPNET\WebShop\WebShop\bin\WebShop.dll
+C:\Users\Nikola\Documents\Visual Studio 2013\Projects\ASPNET\WebShop\WebShop\bin\WebShop.pdb
+C:\Users\Nikola\Documents\Visual Studio 2013\Projects\ASPNET\WebShop\WebShop\obj\Debug\WebShop.csprojResolveAssemblyReference.cache
+C:\Users\Nikola\Documents\Visual Studio 2013\Projects\ASPNET\WebShop\WebShop\obj\Debug\WebShop.dll
+C:\Users\Nikola\Documents\Visual Studio 2013\Projects\ASPNET\WebShop\WebShop\obj\Debug\WebShop.pdb
+C:\Users\Nikola\Documents\Visual Studio 2013\Projects\ASPNET\WebShop\WebShop\bin\System.Data.SQLite.pdb
+C:\Users\Nikola\Documents\Visual Studio 2013\Projects\ASPNET\WebShop\WebShop\bin\EntityFramework.dll
+C:\Users\Nikola\Documents\Visual Studio 2013\Projects\ASPNET\WebShop\WebShop\bin\EntityFramework.SqlServer.dll
+C:\Users\Nikola\Documents\Visual Studio 2013\Projects\ASPNET\WebShop\WebShop\bin\EntityFramework.xml
+C:\Users\Nikola\Documents\Visual Studio 2013\Projects\ASPNET\WebShop\WebShop\bin\EntityFramework.SqlServer.xml
+C:\Users\Nikola\Documents\Visual Studio 2013\Projects\ASPNET\WebShop - Copy\WebShop\bin\WebShop.dll.config
+C:\Users\Nikola\Documents\Visual Studio 2013\Projects\ASPNET\WebShop - Copy\WebShop\bin\WebShop.dll
+C:\Users\Nikola\Documents\Visual Studio 2013\Projects\ASPNET\WebShop - Copy\WebShop\bin\WebShop.pdb
+C:\Users\Nikola\Documents\Visual Studio 2013\Projects\ASPNET\WebShop - Copy\WebShop\bin\EntityFramework.dll
+C:\Users\Nikola\Documents\Visual Studio 2013\Projects\ASPNET\WebShop - Copy\WebShop\bin\EntityFramework.SqlServer.dll
+C:\Users\Nikola\Documents\Visual Studio 2013\Projects\ASPNET\WebShop - Copy\WebShop\bin\EntityFramework.xml
+C:\Users\Nikola\Documents\Visual Studio 2013\Projects\ASPNET\WebShop - Copy\WebShop\bin\EntityFramework.SqlServer.xml
+C:\Users\Nikola\Documents\Visual Studio 2013\Projects\ASPNET\WebShop - Copy\WebShop\obj\Debug\WebShop.csprojResolveAssemblyReference.cache
+C:\Users\Nikola\Documents\Visual Studio 2013\Projects\ASPNET\WebShop - Copy\WebShop\obj\Debug\WebShop.dll
+C:\Users\Nikola\Documents\Visual Studio 2013\Projects\ASPNET\WebShop - Copy\WebShop\obj\Debug\WebShop.pdb
+C:\Users\rope\Desktop\WebShop - Copy\WebShop\bin\WebShop.dll
+C:\Users\rope\Desktop\WebShop - Copy\WebShop\bin\WebShop.pdb
+C:\Users\rope\Desktop\WebShop - Copy\WebShop\bin\EntityFramework.dll
+C:\Users\rope\Desktop\WebShop - Copy\WebShop\bin\EntityFramework.SqlServer.dll
+C:\Users\rope\Desktop\WebShop - Copy\WebShop\bin\EntityFramework.xml
+C:\Users\rope\Desktop\WebShop - Copy\WebShop\bin\EntityFramework.SqlServer.xml
+C:\Users\rope\Desktop\WebShop - Copy\WebShop\obj\Debug\WebShop.csprojResolveAssemblyReference.cache
+C:\Users\rope\Desktop\WebShop - Copy\WebShop\obj\Debug\WebShop.dll
+C:\Users\rope\Desktop\WebShop - Copy\WebShop\obj\Debug\WebShop.pdb
+C:\Users\rope\Desktop\WebShop - Copy\WebShop\bin\System.Data.SQLite.EF6.pdb
+C:\Users\rope\Desktop\WebShop - Copy\WebShop\bin\SQLite.Designer.pdb
+C:\Users\rope\Desktop\WebShop - Copy\WebShop\bin\System.Data.SQLite.Linq.pdb
+C:\Users\Nikola\Desktop\WebShop - Copy\WebShop\obj\Debug\WebShop.csprojResolveAssemblyReference.cache
+C:\Users\Nikola\Desktop\WebShop - Copy\WebShop\obj\Debug\WebShop.dll
+C:\Users\Nikola\Desktop\WebShop - Copy\WebShop\bin\WebShop.dll.config
+C:\Users\Nikola\Desktop\WebShop - Copy\WebShop\bin\WebShop.dll
+C:\Users\Nikola\Desktop\WebShop - Copy\WebShop\bin\WebShop.pdb
+C:\Users\Nikola\Desktop\WebShop - Copy\WebShop\bin\EntityFramework.dll
+C:\Users\Nikola\Desktop\WebShop - Copy\WebShop\bin\EntityFramework.SqlServer.dll
+C:\Users\Nikola\Desktop\WebShop - Copy\WebShop\bin\EntityFramework.xml
+C:\Users\Nikola\Desktop\WebShop - Copy\WebShop\bin\EntityFramework.SqlServer.xml
+C:\Users\Nikola\Desktop\WebShop - Copy\WebShop\bin\SQLite.Designer.pdb
+C:\Users\Nikola\Desktop\WebShop - Copy\WebShop\obj\Debug\WebShop.pdb
+C:\Users\Nikola\Desktop\WebShop - beta 1\WebShop\bin\WebShop.dll.config
+C:\Users\Nikola\Desktop\WebShop - beta 1\WebShop\bin\WebShop.dll
+C:\Users\Nikola\Desktop\WebShop - beta 1\WebShop\bin\WebShop.pdb
+C:\Users\Nikola\Desktop\WebShop - beta 1\WebShop\bin\EntityFramework.dll
+C:\Users\Nikola\Desktop\WebShop - beta 1\WebShop\bin\EntityFramework.SqlServer.dll
+C:\Users\Nikola\Desktop\WebShop - beta 1\WebShop\bin\EntityFramework.xml
+C:\Users\Nikola\Desktop\WebShop - beta 1\WebShop\bin\EntityFramework.SqlServer.xml
+C:\Users\Nikola\Desktop\WebShop - beta 1\WebShop\bin\SQLite.Designer.pdb
+C:\Users\Nikola\Desktop\WebShop - beta 1\WebShop\obj\Debug\WebShop.csprojResolveAssemblyReference.cache
+C:\Users\Nikola\Desktop\WebShop - beta 1\WebShop\obj\Debug\WebShop.dll
+C:\Users\Nikola\Desktop\WebShop - beta 1\WebShop\obj\Debug\WebShop.pdb

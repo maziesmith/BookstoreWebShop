@@ -1,0 +1,247 @@
+﻿body {
+    font-family: Georgia;
+    background: url("../img/header-background.gif");
+    background-repeat: repeat-x;
+    background-position: 0px 37px;
+}
+
+#container {
+    width: 980px;
+    height: auto;
+    margin: auto;
+}
+
+#header {
+    width: 980px;
+    height: 184px;
+}
+
+#header-content {
+    width: 980px;
+    height: 134px;
+}
+
+#menu {
+    width: 630px;
+    height: 50px;
+    float: left;
+    display: inline-block;
+}
+
+#search-wrapper {
+    float: right;
+    width: 350px;
+    height: 50px;
+    display: block;
+    margin: auto;
+}
+
+#search {
+    width: 290px;
+    height: 30px;
+    background-color: white;
+    display: block;
+    margin-top: 16px;
+}
+
+.searchTXT {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+#search-button {
+    display: block;
+    float: right;
+    background-color: black;
+    width: 60px;
+    height: 26px;
+    text-align: center;
+    margin-top: 2px;
+    margin-right: 2px;
+    line-height: 26px;
+    text-decoration:none;
+}
+
+#search-button-text {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    text-decoration:none;
+}
+
+#search-button:hover {
+    background-color: #2D2D2E;
+}
+
+#menu ul {
+    float: left;
+    list-style: none;
+    margin-left: -40px;
+}
+
+#menu li {
+    float: left;
+    display: block;
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+#menu a {
+    color: white;
+    text-decoration: none;
+    padding: 0px 5px 0px 5px;
+    display: block;
+}
+
+    #menu a:link {
+        color: white;
+    }
+
+    #menu a:active {
+        color: #CC373E;
+    }
+
+#menu-link:visited {
+    color: white;
+    background-color: red;
+}
+
+#menu-link:hover {
+    color: #CC373E;
+}
+
+#logo-image {
+    height: 130px;
+    float: left;
+    display: inline-block;
+}
+
+#body-footer {
+    position: absolute;
+    left: 2px;
+    right: -2px;
+    height: 260px;
+    background-image: url('../img/footer-background.png');
+    background-repeat: repeat-x;
+    top: 236px;
+}
+
+.content-page-wrapper {
+    width: auto;
+    height: auto;
+}
+
+#korpa-wrapper {
+    width: 400px;
+    height: 130px;
+    display: inline-block;
+    float: right;
+}
+
+#korpa {
+    width: 300px;
+    height: 100px;
+    border-bottom: 2px solid #808080;
+    float: right;
+    display: inline-block;
+}
+
+#login {
+    width: 400px;
+    height: 20px;
+    text-align: right;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+#img-korpa {
+    height: 20px;
+    width: 20px;
+}
+
+#broj-artikala {
+    margin-top: 30px;
+    height: 20px;
+    text-align: right;
+}
+
+#cena-korpe {
+    text-decoration:none;
+    height: 20px;
+    text-align: right;
+    font-size: 20px;
+}
+
+.zaboravljena-lozinka {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #E61F24;
+}
+
+    .zaboravljena-lozinka:hover {
+        text-decoration: none;
+        color: black;
+    }
+
+.ulaz-izlaz {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #E61F24;
+}
+
+    .ulaz-izlaz:hover {
+        text-decoration: none;
+        color: black;
+    }
+.cena-korpe{
+    margin-left: 10px;
+    text-decoration: none;
+    color: #E61F24;
+}
+
+    .ulaz-izlaz:hover {
+        text-decoration: none;
+        color: black;
+    }
+
+    .admin-panel{
+    margin-left: 10px;
+    text-decoration: none;
+    color: #E61F24;
+}
+
+   .admin-panel:hover {
+        text-decoration: none;
+        color: black;
+    }
+   #footer-content{
+       width:960px;
+       height:100px;
+       margin-top:100px;
+       margin-left:auto;
+       margin-right:auto;
+       text-decoration:none;
+       text-align:center;
+
+   }
+   #footer-content ui{
+       list-style:none;
+       list-style-type:none;
+
+   }
+      #footer-content ui li{
+       display: inline-block;
+       
+
+   }
+   .futer-meni{
+       text-decoration:none;
+       color:white;      
+       padding-left:10px;
+       padding-right:10px;
+   }
+
+    .futer-meni:hover {
+        text-decoration: none;
+        color:#808080;
+    }

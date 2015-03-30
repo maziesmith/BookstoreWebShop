@@ -1,0 +1,179 @@
+﻿        .content-page-wrapper {
+            width: 980px;
+            height: 500px;
+            margin-top: 10px;
+        }
+
+
+        #left-panel {
+            display: inline-block;
+            width: 630px;
+            float: left;
+        }
+
+        #right-panel {
+            float: right;
+            width: 348px;
+            display: inline-block;
+            
+        }
+       #body-footer{
+
+        margin-top:950px;
+        }
+       #left-panel table{
+           margin-left:auto;
+           margin-right:auto;
+            width: 204px;
+}
+       .slika{
+           width:100px;
+           height:auto;
+           display:inline-block;
+           float:left;
+           margin-left:10px;
+
+       }
+       #right-wrapper{
+           width:500px;
+           margin-left:15px;
+           display:inline-block;
+           height:150px;
+           float:left;
+           margin-bottom:15px;
+       }
+       #naslov{
+           width:500px;
+           height:30px;
+           border-bottom: 1px solid #B3B3B3;
+       }
+       #text{
+           width:500px;
+           height:80px;
+
+       }
+       #cena{
+           width:100px;
+           height:20px;
+           display:inline-block;
+           float:left;
+       }
+       #obrisi{
+           width:200px;
+           height:20px;
+           display:inline-block;
+           float:right;
+       }
+       .text{
+           color:#808080;
+           margin-top:5px;
+       }
+       #obrisi-link {
+   float:right;
+    text-decoration:none;
+    color: #E61F24;
+}
+#obrisi-link:hover {
+   float:right;
+    text-decoration:none;
+    color: black;
+}
+.link-strane {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+}
+#ContentPlaceHolder1_futerpanel div {
+    width: 630px;
+    height: 20px;
+    text-align: center;
+}
+#link-strane {
+
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    font-family:Georgia;
+}
+
+    #link-strane:link {
+        color: black;
+    }
+
+    #link-strane:active {
+        color: #CC373E;
+    }
+
+    #link-strane:visited {
+        color: black;
+        background-color: red;
+    }
+
+    #link-strane:hover {
+        color: #CC373E;
+        
+    }
+.naslov {
+    color: #CC373E;
+    text-decoration: none;
+    display: inline-block;
+}
+
+    .naslov:link {
+        color: #CC373E;
+    }
+
+    .naslov:active {
+        color: #CC373E;
+    }
+
+    .naslov:visited {
+        color: black;
+        background-color: red;
+    }
+
+    .naslov:hover {
+        color: black;
+        
+    }
+
+    #right-wrapper1{
+        border-top:1px solid #808080;
+        border-bottom:1px solid #808080;
+        font-family: "Oswald",sans-serif;
+        float:right;
+        width:280px;
+        height:auto;
+        margin-right:55px;
+    }
+            
+    .poruci {
+        margin-top:10px;
+    color: #CC373E;
+    text-decoration: none;
+    display: inline-block;
+}
+
+    .poruci:link {
+        color: #CC373E;
+    }
+
+    .poruci:active {
+        color: #CC373E;
+    }
+        .poruci:hover{
+        color: black;
+       
+    }
+    .poruci:visited {
+        color: black;
+        background-color: red;
+    }
+    .korpa-lbl{
+        font-size:15px;
+        font-weight: bold;
+        color:#CC373E;
+    }
+    .warning-label{
+           color:#CC373E;
+    }

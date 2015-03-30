@@ -1,0 +1,17 @@
+﻿        .content-page-wrapper {
+            width: 980px;
+            height: 500px;
+            margin-top: 10px;
+        }
+
+        #body-footer{
+
+        margin-top:1000px;
+        }
+        .gridview{
+            text-align:center;
+        }
+    .warning-label{
+        text-align:center;
+        color:#CC373E;
+    }
